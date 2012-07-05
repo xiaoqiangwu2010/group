@@ -1,0 +1,20 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: 
+  email: 
+  password: MyString
+
+two:
+  name: 
+  email: 
+  password: MyString
+
+xqw:
+  name: Xiao Qiang Wu
+  email: xiaoqiangwu@gmail.com
+  password: password
+  image_url: /images/xqw.jpg
+  description:
+    I attended Stony Brook University and studied Computer Science. In few days, I will start working
+    in Citigroup as a technology analyst.
