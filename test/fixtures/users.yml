@@ -1,15 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: 
-  email: 
+  name: MyName
+  email: email@gmail.com
   password: MyString
-
+  image_url: /images/xqw.jpg
+  description: student
+  
 two:
-  name: 
-  email: 
+  name: MyName 
+  email: email@gmail.com
   password: MyString
-
+  image_url: /images/xqw.jpg
+  description: student
+  
 xqw:
   name: Xiao Qiang Wu
   email: xiaoqiangwu@gmail.com

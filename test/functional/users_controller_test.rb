@@ -15,7 +15,16 @@ class UsersControllerTest < ActionController::TestCase
   test "should get index" do
     get :index
     assert_response :success
-    assert_not_nil assigns(:users)
+    # verify that the layout is correct
+    assert_select "#header #nav_bar", 1
+    assert_select "#header #nav_bar li a", :minimum => 3
+    assert_select "#header h1", "Group"
+    assert_select "#header input", 1
+    
+    # verify against the test data in the fixture
+    assert_select "#main table tr", 3
+    assert_select "#main table tr td dt", "Xiao Qiang Wu"
+    assert_select "#main table tr td.list_actions a", 9
   end
 
   test "should get new" do
